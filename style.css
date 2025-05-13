@@ -1,0 +1,99 @@
+body{
+    background-color: #525453;
+    
+    
+}
+
+.btncv{
+    background-color: yellow;
+    width: 130px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    color: #282828;
+    
+}
+.btncv:hover{
+    background-color: #525453;
+}
+.btnmore{
+    background-color:  #525453;
+    border: none;
+    border: 1px solid gray;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+.btnmore:hover{
+    background-color: lightgray;
+    
+}
+
+
+/* About page css code */
+
+.container{
+ display: grid;
+ grid-template-columns: 1fr ;
+ gap: 10px;
+}
+.mystudies,.entri,.personal {
+    background-color: #5c6767;
+    border-radius: 7px;
+    padding: 8px; 
+    gap: 5;
+}
+
+
+/* project css */
+
+
+.card{
+    width: 500px;
+    display:flex;
+
+   
+}
+
+
+/* contact page */
+
+.form-control{
+    background-color: #525453;
+    outline: none;
+    cursor: pointer;
+    border:1px solid rgb(72, 72, 72);
+}
+.form-control:hover{
+    background-color: gray;
+}
+
+/* footer  */
+
+.seemorebtn{
+    width: 340px;
+    padding: 8px;
+    border-radius: 5px;
+    outline: none;
+   background-color: yellow; 
+   font-size: 18px;
+   border: none;
+}
+.seemorebtn:hover{
+    background-color:  #525453;
+}
+.footertext{
+    padding: 20px;
+}
+.contact{
+    width: 130px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #525453;
+
+}
+.contact:hover{
+  border: none;
+}
